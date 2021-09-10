@@ -4,7 +4,7 @@ import 'poroduct.dart';
 class Products with ChangeNotifier {
   List<Product> _items = [
     Product(
-      id: 'p1',
+      id : 'p1',
       title: 'Red Shirt',
       description: 'A red shirt - it is pretty red!',
       price: 29.99,
